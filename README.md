@@ -4,11 +4,49 @@ This is an example ecommerce app.
 
 - [install solid + tailwind starter][install-starter]
 - [install router][install-router] - `npm i @solidjs/router`
+- install font icons - `npm i @fortawesome/fontawesome-free`
 - [finished apps using react and solid][finished-app]
 
 [install-starter]: https://tailwindcss.com/docs/guides/solidjs
 [install-router]: https://github.com/solidjs/solid-router
 [finished-app]: https://github.com/jherr/react-vs-solid-fight
+
+## Update CSS
+
+```css
+/* css index.css */
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+@tailwind utilities;
+
+.description {
+  position: relative;
+  height: calc(1.75rem * 3);
+  max-height: calc(1.75rem * 3);
+  overflow: hidden;
+  padding-right: 1rem;
+}
+
+.cart {
+  width: 23rem;
+  margin-top: 1.5rem;
+  margin-left: -20rem;
+  background: white;
+  padding: 0.5rem;
+  color: black;
+  border: 1px solid black;
+}
+```
 
 ## Package Managers
 
