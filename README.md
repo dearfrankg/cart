@@ -5,10 +5,12 @@ This is an example ecommerce app.
 - [install solid + tailwind starter][install-starter]
 - [install router][install-router] - `npm i @solidjs/router`
 - install font icons - `npm i @fortawesome/fontawesome-free`
-- [finished apps using react and solid][finished-app]
+- [finished app repo on github][my-finished-app]
+- [finished example apps using react and solid][finished-app]
 
 [install-starter]: https://tailwindcss.com/docs/guides/solidjs
 [install-router]: https://github.com/solidjs/solid-router
+[my-finished-app]: https://github.com/dearfrankg/cart
 [finished-app]: https://github.com/jherr/react-vs-solid-fight
 
 ## Update CSS
