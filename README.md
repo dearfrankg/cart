@@ -7,11 +7,13 @@ This is an example ecommerce app.
 - install font icons - `npm i @fortawesome/fontawesome-free`
 - [finished app repo on github][my-finished-app]
 - [finished example apps using react and solid][finished-app]
+- [youtube walkthrough][youtube-walkthrough]
 
 [install-starter]: https://tailwindcss.com/docs/guides/solidjs
 [install-router]: https://github.com/solidjs/solid-router
 [my-finished-app]: https://github.com/dearfrankg/cart
 [finished-app]: https://github.com/jherr/react-vs-solid-fight
+[youtube-walkthrough]: https://www.youtube.com/watch?v=OqcHoLWyyIw&ab_channel=JackHerrington
 
 ## Update CSS
 
